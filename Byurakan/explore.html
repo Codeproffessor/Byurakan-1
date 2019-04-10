@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/explore.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Explore</title>
+</head>
+<body>
+    <header>
+            <div class="container">
+                    <div class="row">
+                      <div class="col-md-1 col-sm-2 col-xs-2">
+                  <a href="index.html"><img src="img/byur.png" alt="" style="position: fixed; margin-top: 10px; width:80px; height: 80px;"></a>
+                </div>
+              </div>
+            </div>
+              <header>
+                  <div class="home-wrapper">
+                      <div class="container">
+                        <div class="row">
+                  
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /home wrapper -->
+                  </header>
+                  <nav class="navbar navbar-expand-sm fixed-top navbar-dark ">
+                      <div class="container">
+                          <a class="navbar-brand" href="#"></a>
+                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+                              <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbar1">
+                              <ul class="navbar-nav ml-auto">
+                                  <li class="nav-item active">
+                                      <a class="nav-link" href="index.html">HOME</a>
+                                  </li>
+                                  <li class="nav-item active">
+                                      <a class="nav-link" href="history.html">HISTORY</a>
+                                     
+                                  </li>
+                                  <li class="nav-item active">
+                                      <a class="nav-link" href="#">ACHIEVEMENTS</a>
+                                  </li>
+                                  <li class="nav-item active">
+                                      <a class="nav-link" href="#">TELESCOPES</a>
+                                      <ul>
+                                        <li><a href="#">2.6m Telescop</a></li>
+                                        <br>
+                                        <li><a href="#">53cm Schmidt</a></li>
+                                        <br>
+                                        <li><a href="#">1m Schmidt</a></li>
+              
+                                      </ul>
+                                  </li>
+                                  <li class="nav-item active">
+                                      <a class="nav-link" href="explore.html">EXPLOARATION</a>
+                                      <ul>
+                                        <li><a href="solar-system/solar.html">Solar System</a></li>
+                                        <br>
+                                        <li><a href="solar-system/solar.html">Physic</a></li>
+            
+                                      </ul>
+                                  </li>
+                                  <li class="nav-item active">
+                                      <a class="nav-link" href="activity.html">ACTIVITIES</a>
+                                  </li>
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="">RESEARCH GROUPS</a>
+                              </li>
+                              <li class="nav-item active">
+                                <a class="nav-link" href="staff.html">STAFF</a>
+                            </li>
+                            <li class="nav-item active">
+                              <a class="nav-link" href="">ANNUAL REPORTS</a>
+                          </li>
+                          <li class="nav-item active">
+                            <a class="nav-link" href="sky.html">ALL SKY</a>
+                        </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </nav>
+            
+    </header>
+    <img src="img/logo.jpg" alt="" style="position: absolute; width: 100%; height: auto;">
+        <h1 class="drag">Take the spaceship for a ride. Drag it all around.</h1>
+<p id="countdownToLaunchEMC2" class="countdown"></p>
+<div id="planet-1">
+  <div class="orbiters"></div>
+</div>
+<div id="nova"></div>
+  <div id="novaprime">
+    <div id="prime1"></div>
+    <div id="prime2"></div>
+</div>
+<div id="stars">
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+  <div class="star"></div>
+</div>
+
+<!--space ship SVG-->
+
+<div class="spaceship-container">
+<svg class="spaceship" viewBox="0 0 386 252" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" fill-rule="evenodd" clip-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5">
+	<g transform="translate(-5.644 -6.774) scale(.32388)">
+
+		<path d="M600.993 444.96c55.073 2.433 110.552-1.189 167.432-8.351-16.834-44.822-39.599-90.543-64.494-136.586-34.487 14.747-72.937 22.284-109.132 18.563l6.194 126.374z" fill="url(#_Linear1)" stroke="#000" stroke-width="10.81"/>
+		<path d="M760.322 267.448c76.05 36.121 141.392 80.313 191.54 135.954-61.346 21.235-121.805 31.482-181.511 32.408l-28.073-58.88-36.692-76.959c17.973-8.813 36.214-19.622 54.736-32.523z" fill="url(#_Linear2)" stroke="#000" stroke-width="10.81"/>
+		<path d="M1038.3 376.252c-75.905-63.028-173.623-107.372-283.398-136.241 5.528 10.5 8.395 20.083 4.477 27.328 73.07 35.15 138.096 78.316 189.742 134.816 23.35.945 54.999-12.178 89.179-25.903z" fill="url(#_Linear3)" stroke="#000" stroke-width="10.81"/>
+		<path d="M598.445 143.42c59.13 9.194 115.012 38.578 140.37 77.532 8.975 13.787 29.839 35.546 19.415 43.945-47.562 38.319-88.781 56.294-159.819 53.614-71.518-2.697-162.121-18.379-155.365-55.568 13.58-74.757 97.084-128.592 155.399-119.523z" fill="url(#_Radial4)" stroke="#000" stroke-width="10.81"/>
+		<path d="M162.81 382.431c10.216 9.305 25.065 10.708 38.992 15.105 14.119 4.458 30.025 10.634 47.474 10.688 54.815-57.12 114.972-107.97 192.146-142.963 3.343-10.545 4.888-19.528 7.273-27.117-112.859 25.917-209.501 78.014-285.885 144.287z" fill="url(#_Linear5)" stroke="#000" stroke-width="10.81"/>
+		<path d="M432.81 437.92c10.157-50.688 30.458-92.89 60.325-134.83-26.86-2.422-44.03-19.192-53.687-37.877-86.018 40.458-144.769 91.504-188.948 143.954 59.491 19.124 122.087 26.531 182.31 28.753z" fill="url(#_Linear6)" stroke="#000" stroke-width="10.81"/>
+		<path d="M163.765 382.474c.02 19.351 3.024 37.711 26.086 56.043 139.893 43.871 279.899 51.368 419.931 50.903 130.972.269 262.215-13.971 393.888-51.351 22.86-16.433 33.83-36.698 35.41-59.989-137.971 50.029-284.109 71.198-436.999 66.911-157.998 4.436-304.652-9.457-438.316-62.517z" fill="url(#light-gradient)" stroke="#000" stroke-width="10.81"/>
+		<path d="M187.569 396.58c0 16.683-.892 24.504 9.625 35.7 2.123 2.259 6.639 9.793 6.639 9.306M221.259 405.368c0 14.056-.102 21.376 5.632 32.931 1.447 2.917 9.494 10.96 9.494 12.04M253.839 412.615c0 8.942 10.991 45.169 15.798 45.169M297.867 422.249c0 10.928 3.856 46.383 16.461 46.383M335.937 428.493c0 9.71 14.463 47.381 18.247 47.381M377.529 432.683c0 9.051 19.644 49.098 20.339 49.098M430.31 439.626c0 23.337 12.738 40.031 12.738 45.069M486.534 446.799c0 18.132 6.164 31.415 10.047 39.484M560.948 447.879c0 11.415-.064 24.403 4.632 34.098 1.05 2.167 5.999 5.872 5.999 7.839M640.115 449.098c0 7.421 3.719 23.401.379 29.931-1.362 2.663-5.505 7.517-5.505 9.379M712.259 445.42c0 19.896-9.89 30.253-9.89 39.56M770.207 437.528c0 6.566.03 19.277-3.195 25.631-3.047 6.004-9.935 15.933-9.935 20.022M820.994 433.016c0 11.332-19.896 44.442-19.896 45.335M861.949 424.722c0 10.151-16.052 43.882-19.292 47.249M901.937 421.322c0 8.367-10.882 44.023-14.46 44.023M941.954 408.914c0 11.087-1.927 36.591-13.311 47.702M979.08 399.753c0 7.337-2.937 20.445-5.623 26.871-2.617 6.262-7.355 18.018-7.355 23.172M1016.18 385.156c0 13.124-5.53 52.866-15.53 52.866" fill="none" stroke="#000" stroke-width="10.81"/>
+		<g id="light">
+		<path d="M665.044 416.994c-6.529-11.768-21.273-73.229-4.049-71.416M673.228 351.621c0 .786 14.728 49.965 3.678 49.965" fill="none" stroke="#000" stroke-width="10.81"/>
+		<ellipse class="light" cx="295.374" cy="663.911" rx="10.603" ry="19.221" fill="#a7d952" stroke="#000" stroke-width="9.7" transform="matrix(-1.07363 .1283 .13604 1.13841 894.233 -417.612)"/>
+	</g>
+	<path d="M347.511 415.126c0-9.528 16.246-38.948 26.633-38.948M842.579 417.287c0-9.528-16.246-38.948-26.633-38.948" fill="none" stroke="#000" stroke-width="10.81"/>
+	<path d="M395.167 343.718c15.286 0 21.574-25.614 21.574-38.609" fill="none" stroke="#000" stroke-width="9.48" transform="matrix(1.22715 0 0 1.04622 -89.76 -15.887)"/>
+	<path d="M395.167 343.718c15.286 0 21.574-25.614 21.574-38.609" fill="none" stroke="#000" stroke-width="9.48" transform="matrix(-1.22715 0 0 1.04622 1279.85 -13.726)"/>
+	<path d="M229.397 375.08c29.1 0 29.741-23.888 45.728-40.137M950.843 362.113c-29.1 0-29.741-23.888-45.728-40.137M291.546 331.126c11.442 2.624 32.062-16.931 31.525-29.422M888.694 318.16c-11.442 2.623-32.062-16.932-31.525-29.423" fill="none" stroke="#000" stroke-width="10.81"/>
+	<ellipse class="light"  cx="295.374" cy="663.911" rx="10.603" ry="19.221" fill="#a7d952" stroke="#000" stroke-width="14.28" id="light1" serif:id="light" transform="matrix(.57765 .42513 -.47096 .63992 447.31 -234.825)"/>
+	<ellipse class="light"  cx="295.374" cy="663.911" rx="10.603" ry="19.221" fill="#a7d952" stroke="#000" stroke-width="14.28" id="light2" serif:id="light" transform="matrix(-.57765 .42513 .47096 .63992 732.929 -247.792)"/>
+	<ellipse class="light"  cx="295.374" cy="663.911" rx="10.603" ry="19.221" fill="#a7d952" stroke="#000" stroke-width="10.11" id="light3" serif:id="light" transform="matrix(.83437 .61407 -.65286 .88708 438.754 -419.864)"/>
+	<ellipse class="light"  cx="295.374" cy="663.911" rx="10.603" ry="19.221" fill="#a7d952" stroke="#000" stroke-width="10.11" id="light4" serif:id="light" transform="matrix(-.83437 .61407 .65286 .88708 741.485 -432.831)"/>
+	<ellipse class="light"  cx="295.374" cy="663.911" rx="10.603" ry="19.221" fill="#a7d952" stroke="#000" stroke-width="14.23" id="light5" serif:id="light" transform="matrix(.5822 .42847 -.47096 .63992 546.55 -226.167)"/>
+	<ellipse class="light"  cx="295.374" cy="663.911" rx="10.603" ry="19.221" fill="#a7d952" stroke="#000" stroke-width="14.23" id="light6" serif:id="light" transform="matrix(-.5822 .42847 .47096 .63992 643.538 -224.007)"/>
+	<ellipse class="light"  cx="295.374" cy="663.911" rx="10.603" ry="19.221" fill="#a7d952" stroke="#000" stroke-width="14.23" id="light7" serif:id="light" transform="matrix(.5822 .42847 -.47096 .63992 503.476 -154.341)"/>
+	<ellipse class="light"  cx="295.374" cy="663.911" rx="10.603" ry="19.221" fill="#a7d952" stroke="#000" stroke-width="14.23" id="light8" serif:id="light" transform="matrix(-.5822 .42847 .47096 .63992 686.611 -152.18)"/>
+	<path d="M601.845 445.753l-1.528-67.329-5.154-60.602c-33.635.592-66.803-1.485-102.396-15.305-28.874 43.74-49.75 88.399-61.595 137.433 57.473 6.662 110.715 7.266 170.673 5.803z" fill="url(#_Linear8)" stroke="#000" stroke-width="10.81" transform="translate(1.082 -.398)"/>
+	<g id="light9" serif:id="light">
+	<path d="M523.236 418.816c6.529-11.768 21.273-73.229 4.049-71.416M515.052 353.443c0 .786-14.728 49.965-3.678 49.965" fill="none" stroke="#000" stroke-width="10.81"/>
+	<ellipse class="light" cx="295.374" cy="663.911" rx="10.603" ry="19.221" fill="#a7d952" stroke="#000" stroke-width="9.7" transform="matrix(1.07363 .1283 -.13604 1.13841 294.047 -415.79)"/>
+</g>
+</g>
+<defs>
+	<linearGradient id="_Linear1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(173.626 0 0 145.692 594.799 372.869)">
+		<stop offset="0" stop-color="#fff"/>
+		<stop offset=".52" stop-color="#b2b4ef"/>
+		<stop offset="1" stop-color="#9699e9"/>
+	</linearGradient>
+	<linearGradient id="_Linear2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(246.276 0 0 168.362 705.586 351.629)">
+		<stop offset="0" stop-color="#fff"/>
+		<stop offset=".48" stop-color="#afb1ee"/>
+		<stop offset="1" stop-color="#9699e9"/>
+	</linearGradient>
+	<linearGradient id="_Linear3" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(283.401 0 0 162.192 754.902 321.107)">
+		<stop offset="0" stop-color="#fff"/>
+		<stop offset=".53" stop-color="#e7e8fa"/>
+		<stop offset="1" stop-color="#9699e9"/>
+	</linearGradient>
+	<radialGradient id="_Radial4" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(442.689 230.598) scale(318.39)">
+		<stop offset="0" stop-color="#78a9b8"/>
+		<stop offset="1" stop-color="#8fcccc" stop-opacity=".392"/>
+	</radialGradient>
+	<linearGradient id="_Linear5" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(285.885 0 0 170.08 162.81 323.184)">
+		<stop offset="0" stop-color="#fff"/>
+		<stop offset=".45" stop-color="#e0e1f8"/>
+		<stop offset="1" stop-color="#9699e9"/>
+	</linearGradient>
+	<linearGradient id="_Linear6" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(242.635 0 0 172.707 250.5 351.566)">
+		<stop offset="0" stop-color="#fff"/>
+		<stop offset="1" stop-color="#9699e9"/>
+	</linearGradient>
+	<linearGradient id="_Linear7" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(875.31 0 0 111.359 163.765 433.76)">
+		<stop offset="0" stop-color="#fff"/>
+		<stop offset=".15" stop-color="#d5edac"/>
+		<stop offset=".33" stop-color="#b3de69"/>
+		<stop offset="1" stop-color="#a7d952"/>
+	</linearGradient>
+	<linearGradient id="_Linear8" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(170.673 0 0 143.891 431.172 374.463)">
+		<stop offset="0" stop-color="#fff"/>
+		<stop offset=".48" stop-color="#afb1ee"/>
+		<stop offset="1" stop-color="#9699e9"/>
+	</linearGradient>
+  
+</defs>
+          <linearGradient id="light-gradient" x1="50%" y1="0%" x2="50%" y2="100%" > 
+            
+            <stop offset="0%" stop-color="#7A5FFF">
+                <animate attributeName="stop-color" values="#7A5FFF; #01FF89; #7A5FFF" dur="4s" repeatCount="indefinite"></animate>
+            </stop>
+
+            <stop offset="100%" stop-color="#01FF89">
+                <animate attributeName="stop-color" values="#01FF89; #7A5FFF; #01FF89" dur="1s" repeatCount="indefinite"></animate>
+            </stop>
+
+        </linearGradient>
+</svg>
+<!--end space ship-->
+</div>
+<div id="astroid"></div>
+<!-- starman -->
+<div class="sasha">
+<div class="tesla-container">
+  <div class="car">
+    <div class="front-light"></div>
+    <div class="car-fix"></div>
+    <div class="car-front-light-bulb-glare"></div>
+    <div class="car-windshield"></div>
+    <div class="car-bumper-top">
+      <div class="front-light-bulb"></div>
+    </div>
+    <div class="car-bumper"></div>
+     <div class="car-divider"></div>
+    <div class="car-rear-mirror"></div>
+    <div class="car-side-mirror"></div>
+    <div class="car-tire">
+      <div class="front">
+        <div class="detail-1"></div>
+         <div class="detail-2"></div>
+        <div class="detail-3"></div>
+      </div>
+      <div class="rear">
+        <div class="detail-1"></div>
+         <div class="detail-2"></div>
+        <div class="detail-3"></div>
+      </div>
+    </div>
+    <div class="car-fender">
+      <div class="car-shine"></div>
+      <div class="bottom"></div>
+    </div>
+    <div class="car-fender-bottom"></div>
+    <div class="car-starman">
+      <div class="face"></div>
+      <div class="back"></div>
+      <div class="hand"></div>
+      <div class="steering"></div>
+    </div>
+      <div class="seat"></div>
+    <div class="car-rear-top">
+    <div class="back-light"></div>
+    </div>
+    <div class="car-deco"></div>
+  </div>
+</div>
+</div>
+<!-- end of starman -->
+
+<!-- begin tardis by ChibiBeckyG -->
+
+<div id="thetardis">
+  <div id="tardis-top"></div>
+  <div id="tardis-light"></div>
+  <div id="tardis-roof2"></div>
+  <div id="tardis-roof1"></div>
+  <div id="tardis-body">
+    
+    <div id="police-sign">
+      <div id="text1">POLICE BOX</div>
+    </div>
+    
+    <div id="tardis-door-left">
+      <div id="tardis-window-left">
+      </div>
+      <ul id="tardis-panels-left">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    
+    <div id="tardis-door-right">
+      
+      <div id="tardis-window-right">
+      </div>
+      
+      <ul id="tardis-panels-right">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+      </div>
+    
+  </div>
+  <div id="tardis-floor"></div>
+</div>
+
+<!-- End of Tardis by ChibiBeckyG -->
+<script>
+const spaceshipBounds = document.querySelector(".spaceship-container");
+const spaceship = document.querySelector(".spaceship");
+const redPlanet = document.getElementById('planet-1');
+const overlapThreshold = "50%"; 
+console.log(redPlanet);
+Draggable.create(spaceship, {
+  type:"x,y", 
+  edgeResistance: 0.1,
+  throwProps:true,
+  bounds: spaceshipBounds,
+  onDrag: function(e) {
+     if (this.hitTest(redPlanet, overlapThreshold)) {
+      spaceship.classList.add("spaceship--beam");
+       redPlanet.classList.add("planet-1--grow");
+     } else {
+       spaceship.classList.remove("spaceship--beam");
+       redPlanet.classList.remove("planet-1--grow");
+     }
+  },
+  onDragEnd:function(e) {
+    if (this.hitTest(spaceship, overlapThreshold)) {
+        onDrop(this.target, spaceship);
+    }
+  }
+});//draggable plugin code
+const randomNumber = size => {
+  return Math.floor(Math.random() * size)
+}
+
+const randomChoice = choices => {
+  let index = randomNumber(choices.length)
+  return choices[index]
+}
+
+const flickerStar = star => {
+  star.classList.add('flicker')
+  setTimeout(() => {
+    star.classList.remove('flicker')
+  }, 1000)
+}
+
+const stars = [...document.querySelectorAll('.star')]
+
+setInterval(() => {
+  let star = randomChoice(stars)
+  flickerStar(star)
+}, 200)
+
+const astroid = document.getElementById("astroid");
+
+const getRandomPercentage = () => Math.random() * 60 + 70 + "%";
+astroid.style.transition = "all 12s ease-in";
+
+
+let shouldInvert = false;
+let astroidTop, astroidLeft;
+const randomizeAstroid = () => {
+  astroidTop = getRandomPercentage();
+  astroidLeft = getRandomPercentage();
+  if(shouldInvert) {
+    astroidTop = ""-" + astroidTop";
+    astroidLeft = "-" + astroidLeft;
+  } 
+  astroid.style.left = astroidLeft;
+  astroid.style.top = astroidTop;
+  shouldInvert = !shouldInvert;
+}
+randomizeAstroid();
+setInterval(() => {
+  randomizeAstroid();
+}, 10000)
+
+//countDownDate to Boom by Ifunanya Okolie
+var countDownDate = new Date("Jan 1, 2099 00:00:00").getTime();
+var x = setInterval(function() {
+var now = new Date().getTime();
+var distance = countDownDate - now;
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+   // Output the result in an element with id="countdownToLaunchEMC2"
+ document.getElementById("countdownToLaunchEMC2").innerHTML = days  + " days, " + hours + ":" + minutes + ":" + seconds + " to BOOM!!!";
+  //countdown over
+     
+ if (distance < 0) {
+ clearInterval(x);
+document.getElementById("countdownToLaunchEMC2").innerHTML = "BOOM";
+}
+}, 1000);
+
+
+</script>
+</body>
+</html>

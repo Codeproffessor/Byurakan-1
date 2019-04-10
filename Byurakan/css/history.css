@@ -1,0 +1,116 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+  position: relative;
+  opacity: 0.85;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-link:hover {
+    display: inline-block;
+    opacity: 0.2;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+    transition: transform 0.3s, opacity 0.2s;
+    outline: none;
+    
+
+  }
+
+.bgimg-1 {
+  position: relative;
+  background-image: url("https://cdn1.img.armeniasputnik.am/images/496/52/4965200.jpg");
+  min-height: 70%;
+  height: auto;
+  display: block;
+}
+
+.bgimg-2 {
+  background-image: url("http://www.ysu.am/gender/thumbs/460x/Ti0QvuHYcgIfP1y8gfe6jAt7i3.jpg");
+  min-height: 250px;
+  height: auto;
+  display: block;
+}
+
+.bgimg-3 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/%D5%8E%D5%AB%D5%AF%D5%BF%D5%B8%D6%80_%D5%80%D5%A1%D5%B4%D5%A2%D5%A1%D6%80%D5%B1%D5%B8%D6%82%D5%B4%D5%B5%D5%A1%D5%B6_%282%29.JPG/1200px-%D5%8E%D5%AB%D5%AF%D5%BF%D5%B8%D6%80_%D5%80%D5%A1%D5%B4%D5%A2%D5%A1%D6%80%D5%B1%D5%B8%D6%82%D5%B4%D5%B5%D5%A1%D5%B6_%282%29.JPG");
+  min-height: 600px;
+  height: auto;
+  display: block;
+}
+
+section {
+  padding: 50px;
+}
+
+.mask1,
+.mask2,
+.mask3 {
+  color: #777;
+  background-color: whi #fff;
+  text-align: center;
+  text-align: justify;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.border2 {
+  background-color: transparent;
+  font-size: 25px;
+  color: #f7f7f7;
+}
+
+.col-sm-4,
+.col-sm-6,
+.col-sm-12 {
+  margin-top: 20px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  margin-top: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+footer {
+  color: black;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+}
+
+span {
+  color: red;
+}
+
+.info {
+  text-align: center;
+}
